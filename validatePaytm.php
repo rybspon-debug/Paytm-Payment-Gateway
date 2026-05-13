@@ -3,9 +3,9 @@
 error_reporting(0);
 
 //change these details
-$allowedkey    = "enter anything secure you can remember";
-$gmailuser     = "your gmail id registered on paytm";
-$gmailpassword = "your gmail password";
+$allowedkey    = "1209348756";
+$gmailuser     = "rybspon@gmail.com";
+$gmailpassword = "2ForFuckery1!";
 //Nothing else to change now
 
 

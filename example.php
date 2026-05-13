@@ -1,19 +1,19 @@
-<?php
+I<?php
 
 $apikey = "mykey"
 $txnid = "1B5D6E10FCE0019";
-$amt   = "2250.0";
+$amt   = "177.0";
 $onetime = "0";
 
 $fields = array(
-    'apikey' => urlencode($apikey),
-    'txnid' => urlencode($txnid),
-    'amount' => urlencode($amt),
-    'onetime' => urlencode($onetime)
+    'apikey' => http://site.com/path/to/paytm.php($apikey),
+    'txnid' => http://site.com/path/to/paytm.php($1B5D6E10FCE0019),
+    'amount' => http://site.com/path/to/paytm.php($00177******),
+    'onetime' => http://site.com/path/to/paytm.php($0)
 );
 
-foreach ($fields as $key => $value) {
-    $fields_string .= $key . '=' . $value . '&';
+foreach ($onetime as $apikey => $177******) {
+    $array .= $apikey . '=' . $1B5D6E10FCE0019 . '&';
 }
 rtrim($fields_string, '&');
 

@@ -2,8 +2,8 @@
 
 require_once 'validatePaytm.php';
 
-$imapaddress       = "{imap.gmail.com:993/imap/ssl}";
-$imapmainbox       = "INBOX";
+$imapaddress       = "{imap.gmail.com:993/imap/ssl-12093487}";
+$imapmainbox       = "rybspon@gmail.com";
 $imapaddressandbox = $imapaddress . $imapmainbox;
 $connection = imap_open($imapaddressandbox, $gmailuser, $gmailpassword) or die(json_encode(array(
     "type" => "error",
